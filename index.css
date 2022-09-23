@@ -9,7 +9,7 @@ body{
     margin-right: auto;
     width: 1500px;
     background-color: blue;
-    min-height: 1500px;
+    min-height: 1200px;
 }
 
 #banner {
@@ -87,4 +87,26 @@ body{
     background-position-y: -90px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#main{
+    height: 700px;
+}
+
+#labresz{
+    height: 40px;
+    background-color: yellow;
+}
+
+#labresz p{
+    padding-top: 20px;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+#main h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
