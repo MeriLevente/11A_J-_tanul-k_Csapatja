@@ -44,15 +44,47 @@ body{
 }
 
 #navbar ul li {
-    border-left: 1px solid black;
+    height: 120px;
+    width: calc(100% / 3);
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #navbar ul li:last-child {
-    border-right: 1px solid black;
+    border-right: 2px solid black;
 }
 
 #navbar ul li a {
   display: block;
-  padding: 14px 16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.norvegia{
+    background-image: url(norveg2.png);
+    background-position-y: -150px;
+}
+
+.svedorszag{
+    background-image: url(sved.png);
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finnorszag{
+    background-image: url(finn.png);
+    background-position-y: -90px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
