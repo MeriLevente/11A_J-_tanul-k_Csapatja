@@ -1,5 +1,5 @@
 body{
-    background-image: url(3zsaszlo.jpg);
+    background-image: url(img/3zsaszlo.jpg);
     background-size: cover;
     margin: 0;
 }
@@ -9,13 +9,13 @@ body{
     margin-right: auto;
     width: 1500px;
     background-color: blue;
-    min-height: 1500px;
+    min-height: 1200px;
 }
 
 #banner {
     height: 400px;
     width: 100%;
-    background: url('banner.jpg');
+    background: url('img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -250px;
@@ -44,15 +44,69 @@ body{
 }
 
 #navbar ul li {
-    border-left: 1px solid black;
+    height: 120px;
+    width: calc(100% / 3);
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #navbar ul li:last-child {
-    border-right: 1px solid black;
+    border-right: 2px solid black;
 }
 
 #navbar ul li a {
   display: block;
-  padding: 14px 16px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.norvegia{
+    background-image: url(img/norveg.png);
+    background-position-y: -150px;
+}
+
+.svedorszag{
+    background-image: url(img/sved.png);
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.finnorszag{
+    background-image: url(img/finn.png);
+    background-position-y: -90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main{
+    height: 700px;
+}
+
+#labresz{
+    height: 40px;
+    background-color: yellow;
+}
+
+#labresz p{
+    padding-top: 20px;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+#main h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
