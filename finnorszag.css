@@ -12,7 +12,7 @@ header {
     padding-bottom:40px;
     font-weight: bold;
     font-style: italic;
-    background: url(finn.jpg);
+    background: url(img/finn_banner2.jpg);
     background-position-y: -210px;
 }
 #bevezet {
@@ -20,5 +20,36 @@ header {
 }
 #bevezet h2 {
     text-align: center;
-    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+
+}
+#bevezet p {
+    text-align: justify;
+
+}
+#jellegzetessegek{
+    width: 100%;
+}
+#tomb {
+    float: left;
+    width: 33%;
+    background-color: wheat;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#tomb:last-child {
+    margin-right: 0px;
+    padding: 0%;
+}
+#tomb:first-child {
+    margin-left: 5px;
+}
+#tomb p {
+    text-align: center;
+}
+.clear {
+    clear: both;
 }
