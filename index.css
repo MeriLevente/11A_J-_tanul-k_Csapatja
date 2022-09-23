@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(185, 35, 35);
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    background-color: blue;
+    min-height: 1000px;
+}
