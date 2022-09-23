@@ -10,3 +10,15 @@ body{
     background-color: blue;
     min-height: 1500px;
 }
+
+#banner {
+    height: 250px;
+    background: url('banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#banner h1{
+    text-align: center;
+    color: white;
+}
