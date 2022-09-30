@@ -74,11 +74,12 @@ body{
     float: left;
     width: calc(100% * 0.4 - 2px);
     border: 1px solid black;
+    height: 800px;
+    background-color: bisque;
 }
 
 #container1 h1{
     text-align: center;
-    padding-left: 100px;
 }
 
 #container2{
@@ -98,4 +99,27 @@ body{
     height: 700px;
     width: calc(100% - 40px);
     padding-left: 10px;
+}
+
+.box{
+    margin: 1px 5px 1px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxpiros{
+    background-color: red;
+}
+
+.boxfeher{
+    background-color: white;
+}
+
+.boxkek{
+    background-color: blue;
+}
+
+.clear{
+    clear: both;
 }
