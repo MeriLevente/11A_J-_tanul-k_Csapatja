@@ -8,7 +8,7 @@ body{
     margin-right: auto;
     width: 100%;
     background-color: rgba(255,255,255, 0.95);
-    min-height: 1700px;
+    min-height: 2000px;
 }
 
 #banner {
@@ -122,23 +122,29 @@ body{
 
 .clear{
     clear: both;
+    margin-bottom: 10px;
 }
 
 .kep{
-    width: 25%;
+    border: 1px solid black;
+    width: calc(25% - 5px);
     float: left;
     position: relative;
+    height: 300px;
 }
 
 .kep img{
-    padding-left: 120px;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-size: cover;
+    padding: 5px;
 }
 
 .overlay{
     position: absolute;
     bottom: 0;
     height: 0;
-    background-color: seagreen;
+    background-color: red;
     width: 100%;
     transition: .5s ease;
     overflow: hidden;
