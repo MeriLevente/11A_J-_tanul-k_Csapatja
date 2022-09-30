@@ -1,9 +1,24 @@
 body {
-    width: 100%;
     margin: 0%;
+    width: 100%;
     background-color:rgba(7, 44, 163, 0.9);
+    height: 900px;
 }
-
+#vissza {
+    margin: 5px;
+    display: block;
+    padding: 15px 20px;
+    background-color: rgb(115, 141, 228);
+    width: 70px;
+}
+#vissza a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
 header {
     font-size: 100px;
     text-align: center;
@@ -17,39 +32,47 @@ header {
 }
 #bevezet {
     background-color: aliceblue;
+    margin: 0%;
+    margin-top: 10px;
+
 }
 #bevezet h2 {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0%;
-
-}
-#bevezet p {
-    text-align: justify;
+    font-size: 45px;
 
 }
 #jellegzetessegek{
     width: 100%;
 }
-#tomb {
+#jellegzetessegek p {
+    font-size: 27px;
+    text-align: center;
+}
+.tomb {
     float: left;
     width: 33%;
     background-color: wheat;
     margin-right: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
+    min-height: 210px;
+
 }
-#tomb:last-child {
+.tomb:last-child {
     margin-right: 0px;
     padding: 0%;
 }
-#tomb:first-child {
+.tomb:first-child {
     margin-left: 5px;
-}
-#tomb p {
-    text-align: center;
 }
 .clear {
     clear: both;
+}
+#szoveg {
+    font-size: 25px;
+    text-align: justify;
+    padding: 15px;
 }
