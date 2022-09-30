@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    width: 100%;
+    background: url(finn_img/finn_földrajz1.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position-y: -200px;
+    height: 1150px;
+    margin: 0%;
+
+}
+#hatter {
+    position: absolute;
+    background-color: rgba(143, 241, 159, 0.4);
+    height: 100%;
+    margin: 10px;
+}
+#hatter a {
+    text-decoration: none;
+    margin: 5px;
+    display: block;
+    padding: 15px 20px;
+    background-color: rgb(29, 110, 9);
+    width: 70px;
+}
+.vissza{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+#hatter a:hover {
+    background-color: rgb(108, 212, 87);
+}
+h2 {
+    font-size: 70px;
+    padding: 20px;
+    margin: 0%;
+}
+img {
+    padding: 10px;
+    width: 15%;
+}
+dt {
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 30px;
+    font-style: italic;
+}
+dd {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}

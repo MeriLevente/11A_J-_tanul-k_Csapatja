@@ -2,22 +2,25 @@ body {
     margin: 0%;
     width: 100%;
     background-color:rgba(7, 44, 163, 0.9);
-    height: 900px;
+    height: 1500px;
 }
-#vissza {
+#vissza a {
+    text-decoration: none;
     margin: 5px;
     display: block;
     padding: 15px 20px;
-    background-color: rgb(115, 141, 228);
+    background-color: rgb(115, 141, 228);;
     width: 70px;
 }
-#vissza a{
-    text-decoration: none;
+.index{
     color: black;
     font-size: 25px;
     text-align: center;
     font-weight: bold;
     font-style: italic;
+}
+#vissza a:hover {
+    background-color: bisque;
 }
 header {
     font-size: 100px;
@@ -34,6 +37,7 @@ header {
     background-color: aliceblue;
     margin: 0%;
     margin-top: 10px;
+    overflow: hidden;
 
 }
 #bevezet h2 {
@@ -75,4 +79,39 @@ header {
     font-size: 25px;
     text-align: justify;
     padding: 15px;
+}
+.container {
+    width: 33%;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    float: left;
+}
+.container img {
+    width: 100%;
+}
+.overlay {
+    background-color: rgb(158, 235, 187);
+    width: 100%;
+    height: 0;
+
+    position: absolute;
+    left:0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+}
+.container:hover .overlay{
+    opacity: 1;
+    height: 100%;
+}
+.text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* eltolás */
+    font-size: 50px;
+    color: white;
+    opacity: 1;
 }
