@@ -7,7 +7,7 @@ body{
 #wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 1500px;
+    width: 90%;
     background-color: blue;
     min-height: 1200px;
 }
@@ -76,14 +76,14 @@ body{
 
 .svedorszag{
     background-image: url(img/sved.png);
-    background-position-y: -80px;
+    background-position-y: -100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .finnorszag{
     background-image: url(img/finn.png);
-    background-position-y: -90px;
+    background-position-y: -110px;
     background-repeat: no-repeat;
     background-size: cover;
 }
