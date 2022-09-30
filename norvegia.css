@@ -1,0 +1,71 @@
+body{
+    background-image: url(img/norveg.png);
+    border-image-repeat: repeat;
+}
+
+#wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    background-color: rgba(255,255,255, 0.95);
+    min-height: 1200px;
+}
+
+#banner {
+    height: 350px;
+    width: 100%;
+    background: url('img/norvegb.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -320px;
+}
+
+#banner h1{
+    padding: 200px;
+    text-align: center;
+    color: red;
+    font-size: 100px;
+    font-weight: bolder;
+    font-family: 'fantasy', 'impact';
+}
+
+#navbar{
+    width: 100%;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+}
+
+#navbar ul li {
+    height: 50px;
+    width: calc((100%-8px) / 3);
+    border-left: 2px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+#navbar ul li:last-child{
+    border-right: 2px solid red;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 15px 0 13px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'fantasy', 'impact';
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
