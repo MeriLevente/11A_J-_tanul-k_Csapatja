@@ -5,7 +5,7 @@ body {
     background-repeat: repeat-y;
     background-size: cover;
     background-position-y: -200px;
-    height: 1150px;
+    height: 1180px;
     margin: 0%;
     margin-bottom: 20px;
 
@@ -16,13 +16,14 @@ body {
     height: 100%;
     margin: 10px;
 }
-#hatter a {
+#gombok a {
+    float: left;
     text-decoration: none;
     margin: 5px;
     display: block;
     padding: 15px 20px;
     background-color: rgb(29, 110, 9);
-    width: 70px;
+    width: 150px;
 }
 .vissza{
     color: black;
@@ -31,7 +32,7 @@ body {
     font-weight: bold;
     font-style: italic;
 }
-#hatter a:hover {
+#gombok a:hover {
     background-color: rgb(108, 212, 87);
 }
 h2 {
@@ -53,4 +54,7 @@ dd {
     font-size: 20px;
     text-align: justify;
     padding: 10px;
+}
+.clear {
+    clear: both;
 }
