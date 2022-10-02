@@ -1,17 +1,17 @@
 body {
     position: relative;
     width: 100%;
-    background: url(finn_img/finn_történelem1.jpg);
+    background: url(finn_img/finn_gazdasag3.jpg);
     background-repeat: repeat-y;
     background-size: cover;
-    height: 1770px;
+    height: 1100px;
     margin: 0%;
     margin-bottom: 20px;
 
 }
 #hatter {
     position: absolute;
-    background-color: rgba(236, 231, 170, 0.5);
+    background-color: rgba(10, 142, 146, 0.6);
     height: 100%;
     margin: 10px;
 }
@@ -20,7 +20,7 @@ body {
     margin: 5px;
     display: block;
     padding: 15px 20px;
-    background-color: rgb(219, 198, 103);
+    background-color: rgb(43, 73, 209);
     width: 70px;
 }
 .vissza{
@@ -31,7 +31,7 @@ body {
     font-style: italic;
 }
 #hatter a:hover {
-    background-color: rgb(224, 178, 122);
+    background-color: rgb(43, 111, 214);
 }
 h2 {
     font-size: 70px;
