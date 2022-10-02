@@ -1,0 +1,59 @@
+body {
+    position: relative;
+    width: 100%;
+    background: url(finn_img/finn_turizmus1.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position-y: -200px;
+    min-height: 1020px;
+    margin: 0%;
+    margin-bottom: 20px;
+
+}
+#hatter {
+    width: 98.9%;
+    position: absolute;
+    background-color: rgba(236, 231, 170, 0.5);
+    height: 100%;
+    margin: 10px;
+}
+#hatter a {
+    text-decoration: none;
+    margin: 5px;
+    display: block;
+    padding: 15px 20px;
+    background-color: rgb(122, 47, 156);
+    width: 70px;
+}
+.vissza{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+#hatter a:hover {
+    background-color: rgb(89, 32, 180);
+}
+h2 {
+    font-size: 70px;
+    padding: 20px;
+    margin: 0%;
+}
+img {
+    float: left;
+    padding-left: 10px;
+    width: 24.3%;
+    height: 290px;
+}
+dt {
+    font-size: 40px;
+    padding: 10px;
+    padding-top: 30px;
+    font-style: italic;
+}
+dd {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
