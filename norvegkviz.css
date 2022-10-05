@@ -41,3 +41,9 @@ body {
     width: 100px;
     margin-top: 20px;
     }
+
+    #eredmeny2{
+        background-color: blue;
+        color: red;
+        font-size: 20px;
+    }
