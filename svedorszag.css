@@ -7,9 +7,9 @@ body{
 #wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    background-color: blue;
-    min-height: 1200px;
+    width: 95%;
+    background-color: rgb(15, 107, 226);
+    min-height: 1800px;
 }
 
 #banner {
@@ -24,9 +24,11 @@ body{
 #banner h1{
     padding: 150px;
     text-align: center;
-    color: black;
+    color: rgb(15, 107, 226);
     font-size: 100px;
     font-weight: bolder;
+    text-decoration: underline overline;
+    text-decoration-color: rgb(241, 241, 86);
 }
 
 #navbar{
@@ -78,14 +80,14 @@ body{
 }
 
 .svedorszag{
-    background-color: blue;
+    background-color: rgb(15, 107, 226);
     background-position-y: -100px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .svedorszag a {
-    color: yellow;
+    color: rgb(241, 241, 86);
 }
 
 .finnorszag{
@@ -97,4 +99,50 @@ body{
 
 .finnorszag a {
     color: blue;
+}
+
+#container-1 {
+    float: left;
+    border: 3px solid rgb(241, 241, 86);
+    height: auto;
+    width: calc(100% * (1/3) - 6px);
+}
+
+#container-1 h3 {
+    text-align: center;
+    color: rgb(241, 241, 86);
+    padding: 10px 30px;
+}
+
+#container-2 {
+    float: left;
+    border: 3px solid rgb(241, 241, 86);
+    height: auto;
+    width: calc(100% * (1/3) - 6px);
+}
+
+#container-2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container-3 {
+    float: left;
+    border: 3px solid rgb(241, 241, 86);
+    height: auto;
+    width: calc(100% * (1/3) - 6px);
+}
+
+#container-3 h1 {
+    text-align: center;
+    color: rgb(241, 241, 86);
+    text-decoration: underline;
+}
+
+#container-3 p {
+    text-align: left;
+    padding: 10px 30px;
+    color: rgb(241, 241, 86);
+    font-size: large;
 }
