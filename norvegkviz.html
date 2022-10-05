@@ -15,7 +15,82 @@
         </div>
         <h1>Őfelsége készítette ezt a kvízt, hogy megtalálja méltó utódját.</h1>
         <form id="form1">
+            <h2>Mi a jó?</h2>
+            <label for="var_a"><input type="radio" name="a" value="0" id="var_a" />Nem.</label>
+            <label for="var-b"><input type="radio" name="a" value="0" id="var_b" />Nem.</label>
+            <label for="var_c"><input type="radio" name="a" value="1" id="var_c" />Igen</label>
+            <label for="var_d"><input type="radio" name="a" value="0" id="var_d" />Nem.</label>
+
+            <h2>Mi a jó?</h2>
+            <label for="var_a"><input type="radio" name="b" value="0" id="var_a" />Nem.</label>
+            <label for="var-b"><input type="radio" name="b" value="0" id="var_b" />Nem.</label>
+            <label for="var_c"><input type="radio" name="b" value="1" id="var_c" />Igen</label>
+            <label for="var_d"><input type="radio" name="b" value="0" id="var_d" />Nem.</label>
+
+            <h2>Mi a jó?</h2>
+            <label for="var_a"><input type="radio" name="c" value="0" id="var_a" />Nem.</label>
+            <label for="var-b"><input type="radio" name="c" value="0" id="var_b" />Nem.</label>
+            <label for="var_c"><input type="radio" name="c" value="1" id="var_c" />Igen</label>
+            <label for="var_d"><input type="radio" name="c" value="0" id="var_d" />Nem.</label>
+
+            <h2>Mi a jó?</h2>
+            <label for="var_a"><input type="radio" name="d" value="0" id="var_a" />Nem.</label>
+            <label for="var-b"><input type="radio" name="d" value="0" id="var_b" />Nem.</label>
+            <label for="var_c"><input type="radio" name="d" value="1" id="var_c" />Igen</label>
+            <label for="var_d"><input type="radio" name="d" value="0" id="var_d" />Nem.</label>
+
+            <h2>Mi a jó?</h2>
+            <label for="var_a"><input type="radio" name="e" value="0" id="var_a" />Nem.</label>
+            <label for="var-b"><input type="radio" name="e" value="0" id="var_b" />Nem.</label>
+            <label for="var_c"><input type="radio" name="e" value="1" id="var_c" />Igen</label>
+            <label for="var_d"><input type="radio" name="e" value="0" id="var_d" />Nem.</label>
+
+
+
+            <button type="submit" value="Submit">Beadás</button>
         </form>
+        <p>Eredmény: <span id="eredmeny">__</span></p>
+        <p id="eredmeny2"></p>
+
+
+
+        <script>
+            document.getElementById("form1").onsubmit = function () {
+                a = parseInt(document.querySelector('input[name = "a"]:checked').value);
+                b = parseInt(document.querySelector('input[name = "b"]:checked').value);
+                c = parseInt(document.querySelector('input[name = "c"]:checked').value);
+                d = parseInt(document.querySelector('input[name = "d"]:checked').value);
+                e = parseInt(document.querySelector('input[name = "e"]:checked').value);
+
+
+                vegeredmeny = a + b + c + d + e;
+
+                document.getElementById("eredmeny").innerHTML = vegeredmeny;
+
+                osztalyzas = [
+                    { score: 0, feedback: "Szégyen vagy! Meg ne lássalak még egyszer!", image: "kviz_img/letöltés.jpg" },
+                    { score: 1, feedback: "Csak ennyi!? Kevés vagy!", image: "kviz_img/images.png" },
+                    { score: 2, feedback: "Ennél tudsz te jobbat!", image: "kviz_img/salut.jpg" },
+                    { score: 3, feedback: "Átlagos. Trónomat nem kapod meg!", image: "kviz_img/letöltés.png" },
+                    { score: 4, feedback: "Majdnem!", image: "kviz_img/images.jpg" },
+                    { score: 5, feedback: "Átadom neked trónom, mert te vagy a legnagyobb király!", image: "kviz_img/5.jpg" }
+
+                ];
+
+                for (i = 0; i < osztalyzas.length; i++) {
+                    if (eredmeny == osztalyzas[i].score) {
+                        eredmeny2 = osztalyzas[i].feedback + "<br /><img src='" + osztalyzas[i].image + "' width='300'  />";
+                    }
+                }
+
+
+                document.getElementById("eredmeny2").innerHTML = eredmeny2;
+
+                return false;
+            }
+
+        </script>
+
 </body>
 
 </html>
