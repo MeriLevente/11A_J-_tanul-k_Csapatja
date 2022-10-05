@@ -7,7 +7,7 @@ body{
 #wrapper{
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 90%;
     background-color: rgb(15, 107, 226);
     min-height: 1800px;
 }
@@ -15,7 +15,7 @@ body{
 #banner {
     height: 400px;
     width: 100%;
-    background: url('svedorszag_kepek/tajkep2.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('svedorszag_kepek/tajkep2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: -250px;
@@ -70,35 +70,28 @@ body{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.norvegia{
-    background-color: red;
-    background-position-y: -150px;
-}
-
-.norvegia a {
-    color: blue;
-}
-
-.svedorszag{
+.skandinavia {
     background-color: rgb(15, 107, 226);
-    background-position-y: -100px;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.svedorszag a {
+.skandinavia a {
     color: rgb(241, 241, 86);
 }
 
+.norvegia{
+    background-color: rgb(241, 241, 86);
+}
+
+.norvegia a {
+    color: rgb(15, 107, 226);
+}
+
 .finnorszag{
-    background-color: white;
-    background-position-y: -110px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(15, 107, 226);
 }
 
 .finnorszag a {
-    color: blue;
+    color: rgb(241, 241, 86);
 }
 
 #container-1 {
@@ -145,4 +138,51 @@ body{
     padding: 10px 30px;
     color: rgb(241, 241, 86);
     font-size: large;
+}
+
+.clear {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.pic{
+    border: 3px solid rgb(241, 241, 86);
+    width: calc(25% - 5px);
+    float: left;
+    position: relative;
+    height: 300px;
+}
+
+.pic img{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    padding-left: 20px;
+    background-size: cover;
+    padding: 5px;
+}
+.overlay{
+    position: absolute;
+    height: 0;
+    bottom: 0;
+    width: 100%;
+    transition: .5s ease;
+    overflow: hidden;
+    opacity: 0;
+    background-color: rgb(241, 241, 86);
+}
+
+.pic:hover .overlay{
+    height: 100%;
+    opacity: 100%;
+}
+
+.text{
+    font-size: 30px;
+    color: rgb(15, 107, 226);
+    font-weight: bold;
+    font-family: serif;
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    text-align: center;
 }
