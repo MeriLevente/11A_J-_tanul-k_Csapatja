@@ -185,11 +185,10 @@ body{
 
 .pic img{
     display: block;
+    margin: auto;
     width: calc(100% - 10px);
     background-size: cover;
     padding: 5px;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 .overlay{
     position: absolute;
