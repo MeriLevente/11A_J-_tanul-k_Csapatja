@@ -2,6 +2,7 @@ body{
     background: url('svedorszag_kepek/SVÉD-ZÁSZLÓ.jpg');
     background-size: cover;
     margin: 0;
+    min-height: 1750px;
 }
 
 #wrapper{
@@ -9,7 +10,7 @@ body{
     margin-right: auto;
     width: 90%;
     background-color: rgb(15, 106, 226);
-    min-height: 1800px;
+    min-height: 1700px;
 }
 
 #banner {
@@ -107,6 +108,14 @@ body{
     padding: 10px 30px;
 }
 
+#container-1 h3 a {
+    color: rgb(241, 241, 86);
+}
+
+#container-1 h3 a:hover {
+    color: blue;
+}
+
 #container-1 img {
     display: block;
     margin-left: auto;
@@ -154,13 +163,6 @@ body{
 
 #container-3 p a:hover {
     color: blue;
-}
-
-#container-3 ul {
-    text-align: left;
-    padding: 10px 30px;
-    color: rgb(241, 241, 86);
-    font-size: large;
 }
 
 .clear {
@@ -213,7 +215,7 @@ body{
     font-family: serif;
     position: absolute;
     margin: auto;
-    top: 43%;
+    top: 40%;
     text-align: center;
 }
 
