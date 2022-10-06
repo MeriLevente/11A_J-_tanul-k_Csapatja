@@ -213,6 +213,18 @@ body{
     font-family: serif;
     position: absolute;
     margin: auto;
-    top: 40%;
+    top: 43%;
+    text-align: center;
+}
+
+#footer {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(15, 107, 226);
+    padding-top: 30px;
+}
+
+#footer p {
+    color: rgb(241, 241, 86);
     text-align: center;
 }
